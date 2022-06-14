@@ -1,5 +1,5 @@
 public class Variables {
-    public static void main(String args[]){
+    public static void main(String_Java args[]){
         byte b = 23;
         short s = 545;
         long l = 6615242323511L;
