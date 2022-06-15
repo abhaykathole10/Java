@@ -21,5 +21,11 @@ public class Input {
 
         System.out.println("Hello! " + name + " you are " + age + " years old.");
 
+
+        System.out.print("Enter a number: ");
+        //Tell if the number input is Integer or not
+        boolean b = sc.hasNextInt();
+        System.out.println(b);
+
     }
 }
