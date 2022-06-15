@@ -6,11 +6,11 @@ public class Recurrsion {
 
         System.out.print("Enter number: ");
 
-        Scanner sc = new Scanner(System.in);
+        try (Scanner sc = new Scanner(System.in)) {
+            int k = sc.nextInt();
 
-        int k = sc.nextInt();
-
-        System.out.println("The factorial of k is " + fact(k));
+            System.out.println("The factorial of k is " + fact(k));
+        }
     }
 
     public static int fact(int k){
