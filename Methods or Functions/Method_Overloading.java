@@ -12,6 +12,11 @@ public class Method_Overloading {
         return x + y;
     }
 
+    //Here the inputs are in "integer" and "double" and is returning a "double"
+    public static double add(int x, double y, double z){
+        return x + y + z;
+    }
+
     public static void main(String[] args) {
         int a, b;
         double c, d;
@@ -20,5 +25,8 @@ public class Method_Overloading {
         //Depending on the inputs the respective function will be called
         System.out.println(add(a, b));
         System.out.println(add(c, d));
+        System.out.println(add(a, c, d));
     }
 }
+//Multiple methods can have the same name as long as the number and/or
+//type of parameters are different.
