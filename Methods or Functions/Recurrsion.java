@@ -1,6 +1,15 @@
+import java.util.Scanner;
+
 public class Recurrsion {
+
     public static void main(String[] args) {
-        int k = 5;
+
+        System.out.print("Enter number: ");
+
+        Scanner sc = new Scanner(System.in);
+
+        int k = sc.nextInt();
+
         System.out.println("The factorial of k is " + fact(k));
     }
 
