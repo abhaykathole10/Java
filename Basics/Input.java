@@ -4,28 +4,28 @@ import java.util.Scanner;
 public class Input {
     public static void main(String[] args) {
 
-        //Creating an Object "sc" of Scanner class
-        Scanner sc = new Scanner(System.in);
+        try (//Creating an Object "sc" of Scanner class
+        Scanner sc = new Scanner(System.in)) {
+            System.out.print("Enter your name: ");
 
-        System.out.print("Enter your name: ");
+            //Using "nextLine()" method of the Scanner class through object "sc"
+            //"nextLine()" is used to read the strings
+            String name = sc.nextLine();
 
-        //Using "nextLine()" method of the Scanner class through object "sc"
-        //"nextLine()" is used to read the strings
-        String name = sc.nextLine();
+            System.out.print("Enter your age: ");
 
-        System.out.print("Enter your age: ");
+            //Using other method "nextInt()" of String class
+            //"nextInt()" Reads a int value from the user
+            int age = sc.nextInt();
 
-        //Using other method "nextInt()" of String class
-        //"nextInt()" Reads a int value from the user
-        int age = sc.nextInt();
-
-        System.out.println("Hello! " + name + " you are " + age + " years old.");
+            System.out.println("Hello! " + name + " you are " + age + " years old.");
 
 
-        System.out.print("Enter a number: ");
-        //Tell if the number input is Integer or not
-        boolean b = sc.hasNextInt();
-        System.out.println(b);
+            System.out.print("Enter a number: ");
+            //Tell if the number input is Integer or not
+            boolean b = sc.hasNextInt();
+            System.out.println(b);
+        }
 
     }
 }
