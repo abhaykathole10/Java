@@ -2,10 +2,11 @@
     "java.project.sourcePaths": [
         "Task",
         "String",
+        "Object Oriented Programming/Constructor and Destructor",
         "Object Oriented Programming/Classes and Objects",
         "Methods or Functions",
         "Conditional Statements",
         "Basics",
-        "Object Oriented Programming/Constructor and Destructor"
+        "Object Oriented Programming/Static Keyword"
     ]
 }
