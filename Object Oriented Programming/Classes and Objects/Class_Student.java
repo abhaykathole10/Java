@@ -1,4 +1,4 @@
-class Employee{
+class Student{
     int id;
     String name;
 
@@ -7,12 +7,12 @@ class Employee{
         }
 }
 
-public class Class_Object{
+public class Class_Student{
     public static void main(String[] args) {
 
         //Creating objects of class "Employee"
-        Employee First = new Employee();
-        Employee Second = new Employee();
+        Student First = new Student();
+        Student Second = new Student();
 
         //Assigning the "id" parameter for both objects
         First.id = 11;

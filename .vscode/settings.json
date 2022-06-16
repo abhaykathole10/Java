@@ -1,5 +1,10 @@
 {
     "java.project.sourcePaths": [
-        "Methods or Functions"
+        "Task",
+        "String",
+        "Methods or Functions",
+        "Conditional Statements",
+        "Basics",
+        "Object Oriented Programming/Classes and Objects"
     ]
 }
