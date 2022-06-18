@@ -20,6 +20,8 @@ class Cat extends Animal{
     //Child constructor
 
     Cat(){
+
+        //super(); called implicitly
         System.out.println("Cat Constructor");
     }
 }
