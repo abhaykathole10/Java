@@ -69,3 +69,10 @@ public class instance_variable {
         b.fcMethod();
     }
 }
+
+/*
+Cow's color: White
+Immediate Animal's color: Black
+Calf's color: Brown
+Immediate Animal's color: White
+ */
