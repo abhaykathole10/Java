@@ -33,6 +33,9 @@ public class class_constructor {
         //Creating child object so chil constructor will be called implicitly along with parent(1st)
         Cat b =  new Cat();
 
+        System.out.println(a.getClass());
+        System.out.println(b.getClass());
+
     }
 }
 
