@@ -28,7 +28,7 @@ class Call{
     }
 }
 
-public class example {
+public class Instance_Example {
     public static void main(String[] args) {
 
         Animal a = new Cat();
