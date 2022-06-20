@@ -1,9 +1,10 @@
 {
     "java.project.sourcePaths": [
         "Task",
+        "Object Oriented Programming/Polymorphism",
         "Object Oriented Programming/Inheritance",
         "Object Oriented Programming/Encapsulation",
         "Object Oriented Programming/Abstraction",
-        "Object Oriented Programming/Polymorphism"
+        "Object Oriented Programming"
     ]
 }
