@@ -10,6 +10,6 @@ public class Example1 {
         String s4 = "Jordan";
 
         System.out.println(s3==s4); //Checks reference
-        System.out.println(s3.equals(s4));  //Also Checks reference
+        System.out.println(s3.equals(s4));  //Checks content
     }
 }
