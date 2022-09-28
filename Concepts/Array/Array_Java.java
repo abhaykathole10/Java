@@ -3,7 +3,7 @@ public class Array_Java {
 
         int[] num = {2,4,6,3,1,8,7};
 
-        //Traditional for loop to traverse through the array
+        //Traditional "for" loop to traverse through the array
         for(int i = 0; i < num.length ; i++){
             System.out.println(num[i]);
         }
