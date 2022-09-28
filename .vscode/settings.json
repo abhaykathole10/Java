@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "Task",
+        "String/String Buffer",
         "String/Examples",
         "String/Concepts",
         "Object Oriented Programming/Polymorphism",
@@ -9,6 +10,6 @@
         "Object Oriented Programming/Abstraction",
         "Object Oriented Programming",
         "Concepts/Exception handling",
-        "String/String Buffer"
+        "Concepts/Array"
     ]
 }
