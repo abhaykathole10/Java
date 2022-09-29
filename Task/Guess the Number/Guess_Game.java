@@ -6,7 +6,7 @@ class Game{
     int number;
     int guessedNumber;
 
-    //Generating a random number
+    //Generating a random number using Random()
     Game(){
         Random rand = new Random();
 
