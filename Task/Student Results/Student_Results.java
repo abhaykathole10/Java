@@ -4,6 +4,7 @@ public class Student_Results {
     public static void main(String[] args) {
 
         try (Scanner sc = new Scanner(System.in)) {
+            //Getting the marks of each student
             System.out.print("Enter marks of sunject 1: ");
             float s1 = sc.nextInt();
             System.out.print("Enter marks of sunject 2: ");
