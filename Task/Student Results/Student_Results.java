@@ -16,6 +16,7 @@ public class Student_Results {
             System.out.print("Enter marks of sunject 5: ");
             float s5 = sc.nextInt();
 
+            //Getting the total marks scored by all the students
             float percent = (s1+s2+s3+s4+s5)*100/500;
 
             System.out.println("Percentage: " + percent);
