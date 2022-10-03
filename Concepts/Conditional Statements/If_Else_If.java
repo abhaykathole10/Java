@@ -3,7 +3,9 @@ public class If_Else_If {
         int a = 27;
         if(a < 10){
             System.out.println("Smaller than 10");
-        }else if(10 < a && a < 20){
+        }
+        //We can provide condition inside 'else if'
+        else if(10 < a && a < 20){
             System.out.println("Between 10 and 20");
         }else{
             System.out.println("Above 20");
