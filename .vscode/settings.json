@@ -4,12 +4,23 @@
         "String/String Buffer",
         "String/Examples",
         "String/Concepts",
+        "Practice Codes/Switching",
+        "Practice Codes/Swap",
+        "Practice Codes/Sum",
+        "Practice Codes/Reverse",
+        "Practice Codes/Prime",
+        "Practice Codes/Palindrome",
+        "Practice Codes/Fibonacci",
+        "Practice Codes/Factorial",
+        "Practice Codes/Calculations",
+        "Practice Codes/Armstrong_Number",
         "Object Oriented Programming/Polymorphism",
         "Object Oriented Programming/Inheritance",
         "Object Oriented Programming/Encapsulation",
         "Object Oriented Programming/Abstraction",
         "Object Oriented Programming",
         "Concepts/Exception handling",
-        "Concepts/Array"
+        "Concepts/Array",
+        "Practice Codes/Int to Binary"
     ]
 }
