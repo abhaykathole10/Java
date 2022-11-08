@@ -10,7 +10,7 @@ class Game{
     Game(){
         Random rand = new Random();
 
-        //Give me a random number from 1 to 100
+        //Getting a random number from 1 to 100
         number = rand.nextInt(100);
     }
 
