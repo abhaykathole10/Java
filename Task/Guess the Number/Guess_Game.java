@@ -14,7 +14,7 @@ class Game{
         number = rand.nextInt(100);
     }
 
-    //Taking an input number from the user
+    //Taking input number from the user
     public void inputNumber(){
 
         System.out.print("Enter a number: ");
