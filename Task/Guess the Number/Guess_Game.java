@@ -27,6 +27,7 @@ class Game{
     //Checking if the number is correctly guessed or not
     public boolean isCorrect(){
 
+        //incrementing guesses
         guesses++;
 
         if(guessedNumber == number){
