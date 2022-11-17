@@ -37,7 +37,7 @@ public class Interface_Inheritance {
 
         p.walk();
 
-        //p.run();  -Error
+        //p.run();  (Error)
 
         B q = new C();  //Upcasting
 
